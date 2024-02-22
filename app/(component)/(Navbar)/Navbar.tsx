@@ -14,6 +14,9 @@ const Navbar = () => {
         <Button
           style="border-[1px] border-black px-6 py-3 tracking-wider ml-3 hover:bg-black hover:text-gray-200 duration-300"
           buttName="Reservations"
+          onClick={() => {
+            console.log("Nothing here, just testing");
+          }}
         />
       </div>
       <div className="flex justify-center items-center text-center">
