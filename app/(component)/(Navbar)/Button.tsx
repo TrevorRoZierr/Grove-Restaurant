@@ -3,7 +3,7 @@
 interface Props {
   style: string;
   buttName: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 const Button = ({ style, onClick, buttName }: Props) => {
