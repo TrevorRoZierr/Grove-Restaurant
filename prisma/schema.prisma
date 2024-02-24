@@ -13,5 +13,5 @@ datasource db {
 model Lunch {
   id    Int    @default(autoincrement())
   name  String @unique
-  price Float
+  price String
 }

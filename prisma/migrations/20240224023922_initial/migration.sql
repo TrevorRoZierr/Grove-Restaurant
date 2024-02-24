@@ -2,7 +2,7 @@
 CREATE TABLE "Lunch" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
-    "price" DOUBLE PRECISION NOT NULL
+    "price" TEXT NOT NULL
 );
 
 -- CreateIndex

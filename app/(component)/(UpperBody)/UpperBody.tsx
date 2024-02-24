@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Lunch from "../(Lunch)/Lunch";
 import Button from "../(Navbar)/Button";
+import Lunch from "../(LunchMenu)/lunch";
 
 const UpperBody = () => {
   const [lunchBut, setLunchBut] = useState(false);
