@@ -13,9 +13,9 @@ const SecNavbar = () => {
 
   return (
     <>
-      <div className="flex lg:hidden md:hidden sm:flex justify-between items-center">
-        <h1 className="p-5 lg:text-4xl sm:text-3xl md:text-3xl text-2xl tracking-wide uppercase font-semibold">
-          Grove
+      <div className="fixed flex border-b-2 shadow-[0.1rem_0.25rem_10px_0px_rgba(0,0,0,1)] border-black top-0 w-full bg-[#e7e7e7] lg:hidden md:hidden sm:flex justify-between items-center">
+        <h1 className="p-5 lg:text-4xl sm:text-3xl md:text-3xl text-2xl uppercase font-josefin font-semibold">
+          Bonjour
         </h1>
         <nav className="flex flex-row">
           <h1

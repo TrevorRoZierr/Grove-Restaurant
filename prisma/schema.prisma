@@ -15,3 +15,15 @@ model Lunch {
   name  String @unique
   price String
 }
+
+model Dinner {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  price Float
+}
+
+model Banquet {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  price Float
+}

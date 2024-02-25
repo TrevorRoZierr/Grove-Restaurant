@@ -16,6 +16,7 @@ const config: Config = {
     },
     fontFamily: {
       unbounded: ["Unbounded", "san-serif"],
+      josefin: ["Josefin Sans", "sans-serif"],
     },
   },
   plugins: [],
