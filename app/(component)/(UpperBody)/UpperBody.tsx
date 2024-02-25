@@ -5,6 +5,8 @@ import Button from "../(Navbar)/Button";
 import Lunch from "../(LunchMenu)/lunch";
 import Dinner from "../(DinnerMenu)/dinner";
 import Banquet from "../(BanquetMenu)/banquet";
+import About from "./About";
+import SecAbout from "./SecAbout";
 
 const UpperBody = () => {
   const [lunchBut, setLunchBut] = useState(false);
@@ -16,15 +18,6 @@ const UpperBody = () => {
         Grove
       </h1>
       <div className="flex justify-center items-center flex-row mt-8">
-        <Button
-          style="border-[1px] border-black lg:px-6 lg:py-3 px-2 py-1 tracking-wide lg:tracking-wider lg:ml-6 ml-2  hover:bg-black hover:text-gray-200 duration-300 hover:rounded-lg"
-          buttName="Banquet"
-          onClick={() => {
-            setBanquetBut(true);
-            setLunchBut(false);
-            setDinnerBut(false);
-          }}
-        />
         <Button
           style="border-[1px] border-black lg:px-6 lg:py-3 px-2 py-1 tracking-wide lg:tracking-wider lg:ml-6 ml-2  hover:bg-black hover:text-gray-200 duration-300 hover:rounded-lg"
           buttName="Lunch"
@@ -43,10 +36,27 @@ const UpperBody = () => {
             setBanquetBut(false);
           }}
         />
+        <Button
+          style="border-[1px] border-black lg:px-6 lg:py-3 px-2 py-1 tracking-wide lg:tracking-wider lg:ml-6 ml-2  hover:bg-black hover:text-gray-200 duration-300 hover:rounded-lg"
+          buttName="Banquet"
+          onClick={() => {
+            setBanquetBut(true);
+            setLunchBut(false);
+            setDinnerBut(false);
+          }}
+        />
       </div>
-      {lunchBut && <Lunch />}
-      {dinnerBut && <Dinner />}
-      {banquetBut && <Banquet />}
+      <div>
+        <About />
+      </div>
+      <div>
+        {lunchBut && <Lunch />}
+        {dinnerBut && <Dinner />}
+        {banquetBut && <Banquet />}
+      </div>
+      <div>
+        <SecAbout />
+      </div>
     </>
   );
 };
