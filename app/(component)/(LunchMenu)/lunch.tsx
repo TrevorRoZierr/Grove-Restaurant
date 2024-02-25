@@ -4,7 +4,7 @@ const Lunch = () => {
   const [lunchMenu, setLunchMenu] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/lunch")
+    fetch("https://grove-restaurant.vercel.app/api/lunch")
       .then((response) => response.json())
       .then((data) => setLunchMenu(data))
       .catch((err) => console.error("Failed to fetch lunch menu...", err));
