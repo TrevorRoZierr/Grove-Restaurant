@@ -10,7 +10,7 @@ import SecAbout from "./SecAbout";
 
 const UpperBody = () => {
   const [lunchBut, setLunchBut] = useState(false);
-  const [dinnerBut, setDinnerBut] = useState(false);
+  const [dinnerBut, setDinnerBut] = useState(true);
   const [banquetBut, setBanquetBut] = useState(false);
   return (
     <>

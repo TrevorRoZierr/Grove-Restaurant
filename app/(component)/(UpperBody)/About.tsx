@@ -19,7 +19,7 @@ const About = () => {
     <div className="flex flex-col justify-center items-center">
       <h3 className="text-center uppercase lg:text-[18px] text-[12px] font-semibold font-unbounded lg:mx-[520px] mx-10 my-10 lg:my-[60px]">
         WE OFFER DELICIOUS Croissant FOR SALE on MONDAY,
-        BEGINNING AT 5:00PM & SATURDAY-SUNDAY BEGINNING AT 12:30PM. AVAILABLE
+        BEGINNING AT 5:00PM & Thursday BEGINNING AT 12:30PM. AVAILABLE
         WHILE SUPPLIES LAST.
       </h3>
       <h2 className="lg:text-4xl text-xl font-josefin font-semibold text-center uppercase">
