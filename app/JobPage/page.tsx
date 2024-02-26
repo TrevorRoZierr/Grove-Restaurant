@@ -3,7 +3,7 @@ import Link from "next/link";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
-const page = () => {
+const JobPage = () => {
   const form = useRef<HTMLFormElement | null>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
@@ -76,4 +76,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default JobPage;
