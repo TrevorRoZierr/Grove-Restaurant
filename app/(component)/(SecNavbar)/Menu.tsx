@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <div className="fixed lg:right-4 right-3">
+    <div className="fixed lg:right-4 right-3 top-20 lg:top-10">
       <ul className="border-2 flex flex-col border-black w-min lg:p-5 p-3 text-center lg:mt-2 mt-1 bg-gray-200">
         <Link href="#dinnerTouch" className="p-2 underline text-xs lg:text-sm">
           Menu
