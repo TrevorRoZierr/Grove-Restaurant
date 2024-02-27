@@ -22,7 +22,7 @@ const People = () => {
 const Info = ({ role, name }: InfoProps) => {
   return (
     <>
-      <h1 className="lg:text-2xl mt-8 lg:mt-14 text-xl font-semibold">
+      <h1 className="lg:text-2xl mt-8 lg:mt-14 text-xl font-semibold" id="members">
         {role} of <span className="uppercase text-green-700">Grove</span>
       </h1>
       <p className="border-[1px] border-b-black rounded-lg text-md font-semibold font-unbounded uppercase lg:text-lg">

@@ -3,7 +3,7 @@ import Button from "../(Navbar)/Button";
 
 const Job = () => {
   return (
-    <div className="flex flex-col w-full bg-black justify-center items-center text-center">
+    <div className="flex flex-col w-full bg-black justify-center items-center text-center" id="job">
       <h1 className="p-3 lg:p-6 lg:text-[3rem] text-[#e7e7e7] text-[1.8rem] font-unbounded font-bold capitalize">
         Work for Us
       </h1>
