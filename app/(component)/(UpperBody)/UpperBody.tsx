@@ -7,7 +7,6 @@ import Dinner from "../(DinnerMenu)/dinner";
 import Banquet from "../(BanquetMenu)/banquet";
 import About from "./About";
 import SecAbout from "./SecAbout";
-import Link from "next/link";
 
 const UpperBody = () => {
   const [lunchBut, setLunchBut] = useState(false);
