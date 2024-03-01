@@ -4,11 +4,11 @@ import { ImCross } from "react-icons/im";
 
 const Reservations = () => {
   return (
-    <main className="flex justify-center items-center flex-col lg:p-32 w-full">
-      <div className="w-[75%] border-black border-2 flex justify-center items-center flex-col lg:p-20 lg:rounded-xl">
+    <main className="flex justify-center bg-[#e7e7e7e] items-center flex-col lg:p-32 w-full lg:mt-0 mt-52 lg:mb-0 mb-24">
+      <div className="w-[75%] border-black border-2 flex justify-center items-center flex-col lg:p-20 p-2 lg:rounded-xl">
         <Link
           href="/"
-          className="absolute lg:right-10 lg:top-[320px] lg:text-2xl"
+          className="absolute lg:right-10 right-5 lg:top-[320px] top-[180px] lg:text-2xl"
         >
           <ImCross />
         </Link>
@@ -38,7 +38,7 @@ const Reservations = () => {
             <div className="flex w-full justify-center items-center text-center">
               <input
                 type="submit"
-                className="bg-black text-amber-200 lg:px-5 lg:py-2 rounded-full text-md lg:text-lg lg:mt-5 mt-2 cursor-pointer"
+                className="bg-black text-amber-200 lg:px-5 px-3 py-1 lg:py-2 rounded-full text-md lg:text-lg lg:mt-5 mt-2 cursor-pointer"
                 onClick={() => {
                   alert("Your Table has been successfully reserved");
                 }}
