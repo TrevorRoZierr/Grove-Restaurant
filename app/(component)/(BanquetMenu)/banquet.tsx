@@ -11,7 +11,10 @@ const Banquet = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center flex-col text-center">
+    <div
+      className="flex justify-center items-center flex-col text-center"
+      id="menuGoTo"
+    >
       <h1 className="lg:mt-20 mt-10 text-black lg:text-3xl text-2xl font-semibold uppercase">
         banquet Menu
       </h1>

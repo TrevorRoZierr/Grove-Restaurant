@@ -7,11 +7,13 @@ import Dinner from "../(DinnerMenu)/dinner";
 import Banquet from "../(BanquetMenu)/banquet";
 import About from "./About";
 import SecAbout from "./SecAbout";
+import { useRouter } from "next/navigation";
 
 const UpperBody = () => {
   const [lunchBut, setLunchBut] = useState(false);
-  const [dinnerBut, setDinnerBut] = useState(true);
+  const [dinnerBut, setDinnerBut] = useState(false);
   const [banquetBut, setBanquetBut] = useState(false);
+  const router = useRouter();
   return (
     <>
       <h1 className="text-center tracking-wider lg:hidden text-[3.5rem] uppercase font-bold mt-32 font-unbounded">
@@ -25,6 +27,7 @@ const UpperBody = () => {
             setLunchBut(true);
             setDinnerBut(false);
             setBanquetBut(false);
+            router.push("#menuGoTo");
           }}
         />
         <Button
@@ -34,6 +37,7 @@ const UpperBody = () => {
             setDinnerBut(true);
             setLunchBut(false);
             setBanquetBut(false);
+            router.push("#menuGoTo");
           }}
         />
         <Button
@@ -43,6 +47,7 @@ const UpperBody = () => {
             setBanquetBut(true);
             setLunchBut(false);
             setDinnerBut(false);
+            router.push("#menuGoTo");
           }}
         />
       </div>
